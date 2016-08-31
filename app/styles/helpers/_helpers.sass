@@ -1,0 +1,123 @@
+// ----------------------------------------------------------------------
+// floats
+// ----------------------------------------------------------------------
+.cf:before,
+.cf:after
+    content: " "
+    display: table
+
+.cf:after 
+    clear: both
+
+.fl
+    float: left
+
+.fr
+    float: right
+
+// ----------------------------------------------------------------------
+// Blocks
+// ----------------------------------------------------------------------
+.h
+    &-inlb
+        display: inline-block
+        vertical-align: top
+        &-m
+            display: inline-block
+            vertical-align: middle
+
+    &-bl
+        display: block
+
+    &-tbl
+        display: table
+
+    // background
+    &-bg
+        &-white
+            color: #fff
+        &-black
+            color: #000
+
+// ----------------------------------------------------------------------
+// Margins, paddings
+// ----------------------------------------------------------------------
+
+.h
+    &-mrg-b
+        &-5
+            margin-bottom: 5px !important
+        &-10
+            margin-bottom: 10px !important
+        &-20
+            margin-bottom: 20px !important
+        &-35
+            margin-bottom: 35px !important
+
+    &-mrg-t
+        &-5
+            margin-top: 5px !important
+        &-10
+            margin-top: 10px !important
+        &-20
+            margin-top: 20px !important
+        &-35
+            margin-top: 35px !important
+
+    &-mrg-l
+        &-5
+            margin-left: 5px !important
+        &-10
+            margin-left: 10px !important
+        &-20
+            margin-left: 20px !important
+        &-35
+            margin-left: 35px !important
+
+    &-mrg-r
+        &-5
+            margin-right: 5px !important
+        &-10
+            margin-right: 10px !important
+        &-20
+            margin-right: 20px !important
+        &-35
+            margin-right: 35px !important
+
+// ----------------------------------------------------------------------
+// Typography
+// ----------------------------------------------------------------------
+
+.h
+    &-f
+        &-s0
+            font-size: 0
+
+        &-s20
+            font-size: 20px
+
+        &-s24
+            font-size: 24px
+
+        &-s16
+            font-size: 16px
+
+        &-s12
+            font-size: 12px
+
+
+    &-bold
+        font-weight: bold
+
+    &-uppc
+        text-transform: uppercase
+
+    &-itl
+        font-style: italic
+
+
+    &-c
+        &-white
+            color: #fff
+        &-black
+            color: #000

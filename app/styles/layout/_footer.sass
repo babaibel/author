@@ -1,0 +1,84 @@
+.footer
+
+	&__top
+		background: linear-gradient(to bottom, #e5e5e5 0%,#ffffff 100%)
+		padding: 70px 0 25px
+
+	&__copy
+		padding: 25px 0
+		background-color: #fff
+		text-align: center
+		color: #ababab
+		font-size: 13px
+
+.footer-info
+	@extend .cf
+
+	&__item
+		float: left
+		width: (100%/3)
+
+		&:nth-child(1)
+			padding-right: 10%
+			width: 40%
+
+			+max-screen($breack)
+				width: 45%
+
+		&:nth-child(2)
+			width: 35%
+			padding-right: 25px
+
+		&:nth-child(3)
+			width: 25%
+
+			+max-screen($breack)
+				width: 20%
+
+	&__title
+		position: relative
+		padding: 25px 0 0
+		margin-bottom: 25px
+		font: 600 22px/26px $baseFont
+		color: $cOrng
+		text-transform: uppercase
+
+		&:before
+			content: ""
+			position: absolute
+			left: -3px
+			top: 0
+			width: 82px
+			height: 8px
+			border-radius: 3px
+			background-color: $cOrng
+
+	&__text
+		P
+			margin-bottom: 20px
+			font: 300 15px/23px $textFont
+
+	&__phone
+		font: 400 22px/26px $baseFont!important
+		margin-bottom: 0!important
+
+		B
+			font-weight: 600
+
+		A
+			text-decoration: none
+			color: #000
+
+.footer-soc
+
+	&__item
+		text-decoration: none
+		display: inline-block
+		vertical-align: middle
+		margin: 15px 10px 0 0
+
+		&:hover
+			opacity: 0.8
+
+		IMG
+			display: block

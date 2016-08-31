@@ -1,0 +1,42 @@
+.link
+
+    border-bottom: 1px solid transparent
+    text-decoration: none
+
+    &:hover
+
+        border-bottom-color: transparent
+
+
+    /* colors */
+
+    &--orng
+        color: $cOrng
+        border-color: $cOrng
+
+
+    /* other */
+
+    &--dotted
+        border-bottom-style: dotted
+
+
+.link-icon
+    display: inline-block
+    text-decoration: none
+
+    &:hover
+        .link-icon__text
+            border-color: transparent
+
+    &__img
+        display: inline-block
+        vertical-align: middle
+        margin-right: 10px
+
+    &__text
+        font: 700 14px/14px $baseFont
+        display: inline-block
+        text-transform: uppercase
+        color: $cOrng
+        border-bottom: 1px solid $cOrng

@@ -1,0 +1,148 @@
+.btn
+    display: inline-block
+    box-sizing: border-box
+    vertical-align: middle
+    text-align: center
+    cursor: pointer
+    background: transparent
+    text-decoration: none
+    position: relative
+    user-select: none
+    transition: $t150
+
+    font-size: inherit
+    padding: 0
+
+    &:hover
+        & > SPAN
+            border-color: transparent
+
+    &--install
+        height: 58px
+        line-height: 58px
+        padding: 0 20px
+        display: block
+        background: url(../images/install-bg.png) repeat-x 0 50%
+
+    &--more
+        height: 38px
+        padding: 0 32px
+        box-shadow: 0 3px 5px rgba(0,0,0,0.4)
+        background: linear-gradient(to bottom, #ef975c 0%, #ed813a 20%, #ea6f1e 100%)
+        font: 600 15px/38px $baseFont
+        text-transform: uppercase
+        text-decoration: none
+
+        SPAN
+            border-bottom: 1px solid #fff
+            color: #fff
+            line-height: 18px
+            display: inline-block
+
+    &--order
+        width: 600px
+        height: 100px
+        background: url(../images/order-btn.png) no-repeat 0 0
+        text-indent: -9999px
+
+        &:hover
+            transform: rotate(-3deg)
+
+    &--check
+        height: 54px
+        padding: 0 40px
+        box-shadow: 0 3px 10px rgba(0,0,0,0.7)
+        background: linear-gradient(to bottom, #595f69 0%, #373f4b 20%, #212a37 100%)
+        font: 600 18px/54px $baseFont
+        text-transform: uppercase
+        text-decoration: none
+        opacity: 0.9
+        color: #fff
+
+        &:hover
+            opacity: 1
+
+    &--big-more
+        height: 54px
+        padding: 0 30px
+        box-shadow: 0 3px 5px rgba(0,0,0,0.4)
+        background: linear-gradient(to bottom, #828282 0%, #676767 20%, #565656 100%)
+        font: 600 15px/54px $baseFont
+        text-transform: uppercase
+        text-decoration: none
+        opacity: 1
+        color: #fff
+
+        SPAN
+            border-bottom: 1px solid #fff
+            color: #fff
+            line-height: 18px
+            display: inline-block
+
+    &--big-video
+        height: 54px
+        padding: 0 30px
+        box-shadow: 0 3px 5px rgba(0,0,0,0.4)
+        background: linear-gradient(to bottom, #ef975c 0%, #ed813a 20%, #ea6f1e 100%)
+        font: 600 15px/54px $baseFont
+        text-transform: uppercase
+        text-decoration: none
+        opacity: 1
+        color: #fff
+
+        IMG
+            display: inline-block
+            vertical-align: middle
+            margin-top: -6px
+            margin-right: 14px
+
+        SPAN
+            border-bottom: 1px solid #fff
+            color: #fff
+            line-height: 18px
+            display: inline-block
+
+    &--recall
+        width: 60px
+        height: 52px
+        text-indent: -9999px
+        background: url(../images/recall-btn.png) no-repeat 50% 50% #fff
+
+    &--popup
+        height: 52px
+        padding: 0 30px
+        box-shadow: 0 3px 5px rgba(0,0,0,0.4)
+        background: linear-gradient(to bottom, #ef975c 0%, #ed813a 20%, #ea6f1e 100%)
+        font: 600 15px/52px $baseFont
+        text-transform: uppercase
+        text-decoration: none
+        opacity: 0.9
+        color: #fff
+
+        &:hover
+            opacity: 1
+
+.btn-icon
+    display: inline-block
+    text-decoration: none
+
+    &:hover
+        .link-icon__text
+            border-color: transparent
+
+    &__img
+        display: inline-block
+        vertical-align: middle
+        margin-right: 10px
+
+    &__text
+        font: 600 14px/14px $baseFont
+        display: inline-block
+        text-transform: uppercase
+        color: #fff
+        border-bottom: 1px solid #fff
+
+    /* sizes */
+
+    /* colors */
+

@@ -1,0 +1,110 @@
+.header
+	position: fixed
+	top: 0
+	left: 0
+	right: 0
+	z-index: 12
+	background-color: #fff
+
+	&:before
+		content: ""
+		position: absolute
+		bottom: 0
+		left: 0
+		right: 0
+		height: 58px
+		background: linear-gradient(to bottom, #ededed 0%,#e1e1e1 100%)
+
+	&__inner
+		padding-left: 330px
+
+		+max-screen($breack)
+			padding-left: 280px
+
+	&__logo
+		position: absolute
+		left: 13px
+		top: 0
+
+.logo
+	display: block
+	text-decoration: none
+	height: 170px
+	text-align: center
+	width: 305px
+	background: url(../images/logo-bg.png) no-repeat 50% 100%
+	z-index: 13
+
+	+max-screen($breack)
+		width: 260px
+
+	IMG
+		display: inline-block
+		margin-top: 51px
+
+
+.header-top
+	height: 112px
+	padding-top: 36px
+	@extend .cf
+
+	&__left
+		float: left
+
+	&__right
+		float: right
+
+		.link-icon
+			margin-right: 20px
+
+.header-bot
+	height: 58px
+	@extend .cf
+
+	&__nav
+		float: left
+
+	&__right
+		float: right
+
+.header-phone
+
+	&__number
+		text-decoration: none
+		color: #3d3d3d
+		font: 600 22px/24px $baseFont
+
+		SPAN
+			color: $cOrng
+
+	&__text
+		margin-top: 2px
+		color: rgba(0,0,0,0.75)
+		font: 600 11px/14px $baseFont
+		text-transform: uppercase
+
+.menu
+
+	&__item
+		float: left
+		margin-right: 50px
+		height: 58px
+		line-height: 58px
+
+		+max-screen($breack)
+			margin-right: 20px
+
+		&:last-child
+			margin-right: 0
+
+	&__link
+		display: inline-block
+		vertical-align: middle
+		text-decoration: none
+		font: 600 14px/14px $baseFont
+		text-transform: uppercase
+		color: $cBlack
+		border-bottom: 1px solid $cBlack
+
+		&:hover
+			border-color: transparent

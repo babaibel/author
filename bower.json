@@ -1,0 +1,26 @@
+{
+  "name": "Project name",
+  "description": "",
+  "version": "1.0.0",
+  "authors": [
+    "Name <email>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "~1.11.3",
+    "modernizr": "~2.8.3",
+    "normalize.css": "~3.0.3",
+    "slick-carousel": "~1.5.9",
+    "selectize": "latest",
+    "magnific-popup": "latest",
+    "jquery.inputmask": "latest",
+    "Tabslet": "latest",
+    "parallax.js": "^1.4.2",
+    "tooltipster": "^4.1.4"
+  }
+}

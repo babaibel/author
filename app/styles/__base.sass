@@ -1,0 +1,54 @@
+@charset "UTF-8"
+
+// ----------------------------------------------------------------------
+// General styles
+// ----------------------------------------------------------------------
+
+*,
+*:after,
+*:before
+    box-sizing: border-box
+
+
+HTML,
+BODY
+    height: 100%
+    min-width: $minW
+    
+BODY
+    font-family:  $baseFont
+    //font-size: 13px
+    //line-height: 20px
+
+
+INPUT,
+TEXTAREA,
+BUTTON
+    font-family: $baseFont
+    outline: none 
+    border: 0
+    background-color: transparent
+    padding: 0
+    line-height: normal
+    -webkit-appearance: none
+    border-radius: 0
+
+    &:focus
+        outline: none
+
+
+TEXTAREA
+    resize: vertical
+
+UL, OL
+    margin: 0
+    padding: 0  
+    list-style: none 
+
+P
+    margin: 0
+
+IMG
+    max-width: 100%
+
+

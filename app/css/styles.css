@@ -1435,29 +1435,35 @@ IMG {
 /* line 460, ../styles/pages/_index.sass */
 .advantages-slider {
   margin: 25px 0 0;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
+  height: 170px;
+  overflow: hidden;
 }
-/* line 464, ../styles/pages/_index.sass */
+/* line 466, ../styles/pages/_index.sass */
+.advantages-slider.slick-initialized {
+  overflow: visible;
+}
+/* line 469, ../styles/pages/_index.sass */
 .advantages-slider .slick-list {
   height: 170px;
 }
-/* line 467, ../styles/pages/_index.sass */
+/* line 472, ../styles/pages/_index.sass */
 .advantages-slider__slide {
   margin: 0 -10px;
 }
 @media screen and (max-width: 1220px) {
-  /* line 467, ../styles/pages/_index.sass */
+  /* line 472, ../styles/pages/_index.sass */
   .advantages-slider__slide {
     margin: 0 -3px;
   }
 }
-/* line 474, ../styles/pages/_index.sass */
+/* line 479, ../styles/pages/_index.sass */
 .advantages-slider__item {
   border: 1px solid #dedede;
   min-height: 170px;
   padding: 5px;
 }
-/* line 475, ../styles/pages/_index.sass */
+/* line 480, ../styles/pages/_index.sass */
 .advantages-slider__item-wr {
   float: left;
   width: 20%;
@@ -1465,17 +1471,17 @@ IMG {
   text-align: center;
 }
 @media screen and (max-width: 1220px) {
-  /* line 475, ../styles/pages/_index.sass */
+  /* line 480, ../styles/pages/_index.sass */
   .advantages-slider__item-wr {
     padding: 0 3px;
   }
 }
-/* line 490, ../styles/pages/_index.sass */
+/* line 495, ../styles/pages/_index.sass */
 .advantages-slider__item:hover .advantages-slider__item-img {
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
 }
-/* line 493, ../styles/pages/_index.sass */
+/* line 498, ../styles/pages/_index.sass */
 .advantages-slider__item-img {
   margin: 20px 0 20px;
   height: 60px;
@@ -1485,70 +1491,70 @@ IMG {
           transition: 0.3s;
 }
 @media screen and (max-width: 1220px) {
-  /* line 493, ../styles/pages/_index.sass */
+  /* line 498, ../styles/pages/_index.sass */
   .advantages-slider__item-img {
     margin-top: 15px;
   }
 }
-/* line 503, ../styles/pages/_index.sass */
+/* line 508, ../styles/pages/_index.sass */
 .advantages-slider__item-img IMG {
   display: inline-block;
   vertical-align: middle;
   max-width: 90%;
   max-height: 60px;
 }
-/* line 509, ../styles/pages/_index.sass */
+/* line 514, ../styles/pages/_index.sass */
 .advantages-slider__item-text {
   color: #383838;
   font: 600 13px/15px "Open Sans", sans-serif;
   text-transform: uppercase;
 }
 @media screen and (max-width: 1220px) {
-  /* line 509, ../styles/pages/_index.sass */
+  /* line 514, ../styles/pages/_index.sass */
   .advantages-slider__item-text {
     font-size: 12px;
   }
 }
-/* line 517, ../styles/pages/_index.sass */
+/* line 522, ../styles/pages/_index.sass */
 .advantages-slider .slick-dots {
-  bottom: -5px;
+  bottom: -45px;
 }
-/* line 520, ../styles/pages/_index.sass */
+/* line 525, ../styles/pages/_index.sass */
 .advantages-slider .slick-dots LI {
   margin: 0 2px;
 }
-/* line 523, ../styles/pages/_index.sass */
+/* line 528, ../styles/pages/_index.sass */
 .advantages-slider .slick-dots LI BUTTON {
   padding: 0;
 }
-/* line 526, ../styles/pages/_index.sass */
+/* line 531, ../styles/pages/_index.sass */
 .advantages-slider .slick-dots LI BUTTON:before {
   font-size: 13px;
   color: #ea7222;
 }
 
-/* line 531, ../styles/pages/_index.sass */
+/* line 536, ../styles/pages/_index.sass */
 .popup-base {
   margin: 0 auto;
   max-width: 600px;
   padding: 25px 40px;
   background-color: #fff;
 }
-/* line 537, ../styles/pages/_index.sass */
+/* line 542, ../styles/pages/_index.sass */
 .popup-base .h2 {
   margin-bottom: 25px;
 }
-/* line 540, ../styles/pages/_index.sass */
+/* line 545, ../styles/pages/_index.sass */
 .popup-base .input {
   border: 1px solid #000;
   width: 100%;
 }
 
-/* line 546, ../styles/pages/_index.sass */
+/* line 551, ../styles/pages/_index.sass */
 .form__row {
   margin-bottom: 15px;
 }
-/* line 549, ../styles/pages/_index.sass */
+/* line 554, ../styles/pages/_index.sass */
 .form__row:last-child {
   margin-top: 25px;
 }
